@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 // role : 객체의 생성과 연결 담당
-@Configuration
+@Configuration //assure singleton
 public class AppConfig {
     @Bean
     public MemberService memberService() {
