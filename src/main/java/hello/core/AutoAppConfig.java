@@ -13,4 +13,5 @@ import static org.springframework.context.annotation.ComponentScan.*;
 )
 
 public class AutoAppConfig {
+
 }
